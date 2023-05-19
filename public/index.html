@@ -1,0 +1,48 @@
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./static/script.js"></script>
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/808/PNG/512/pinterest_icon-icons.com_66097.png" type="image/x-icon">
+    
+    <meta property="twitter:title" content="Pinterest Mockup">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="./">
+    <meta property="twitter:image" content="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fjonbennallick.co.uk%2Fwp-content%2Fuploads%2F2012%2F09%2FPinterest-Logo-Vector-by-Jon-Bennallick-02.png&f=1&nofb=1&ipt=b7db41916c3fc0d6dc7bcac3a34d067a1d74a8e4ff0e6a437e5c37a5b5103581&ipo=images">
+    <meta property="twitter:description" content="Don't sue me please, Pinterest">
+    <meta property="twitter:card" content="summary_large_image">
+
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCINEVGxvOiRkwoMn4YS41EXpHkGektEQI",
+    authDomain: "pinterest-mockup.firebaseapp.com",
+    projectId: "pinterest-mockup",
+    storageBucket: "pinterest-mockup.appspot.com",
+    messagingSenderId: "60008859971",
+    appId: "1:60008859971:web:23ec800590fe15d38a87f6",
+    measurementId: "G-GXXQ4Q9XEX"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</head>
+<body>
+    <h1 class="heading-text" id="heading-text">Pinterest Mockup</h1>
+    <div id="gallery">
+    </div>
+</body>
+</html>
